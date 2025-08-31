@@ -79,15 +79,29 @@ span {
   padding: 10px 20px;
   border-bottom: 1px solid hsl(30, 18%, 87%);
 }
-.nutritionContainer div:last-child{
-    border: none;
+.nutritionContainer div:last-child {
+  border: none;
 }
-.nutritionContainer p{
-    margin: 10px 0;
+.nutritionContainer p {
+  margin: 10px 0;
 }
 .nutritionContainer div p {
   width: 50%;
 }
 
-.attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 700px){
+  .recipeContainer {
+  margin: 0;
+  }
+  .nutritionContainer div {
+  padding: 5px 20px;
+}
+}
